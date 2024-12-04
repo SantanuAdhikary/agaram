@@ -3,7 +3,7 @@ import { useAirtel } from '../context/AirtelContext'
 
 const Hello = () => {
 
-   let {sim,type}=   useAirtel()
+   let {sim,type}=  useAirtel()
   return (
     <div>
 

@@ -4,12 +4,14 @@ import AirtelProvider from './context/AirtelContext'
 import Hello from './components/Hello'
 import Hi from './components/Hi'
 
+import './App.css'
+
 const App = () => {
   return (
     <>
     
 
-    <UseRefExample/>
+    <UseRefExample myName = {"surya"} age={60}/>
 
 
     <AirtelProvider>
